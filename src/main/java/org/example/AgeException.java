@@ -1,5 +1,9 @@
 package org.example;
+import java.util.Scanner;
 
-public class AgeException {
+class AgeException extends Exception{
+    public AgeException(){
+        super("Недостаточный возраст для доступа");
+    }
 
 }
